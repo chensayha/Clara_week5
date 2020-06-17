@@ -1,0 +1,91 @@
+.content{
+    padding-left: 2px;
+}
+
+.contentNav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 32px;
+    height: 93px;
+    h2{
+        line-height: 33px;
+        font-size: 24px;
+        margin-right: 46px;
+        font-weight: 700;
+    }
+    span{
+        vertical-align:bottom;
+    }
+    .navRight{
+        cursor: pointer;
+        :hover{
+            color:$green;
+        }
+        :nth-child(1){
+            margin-right:26px;
+        }
+    }
+}
+
+.list{
+    border:1px solid $greenLine;
+    border-radius: 3px;
+    padding-left:0;
+    z-index: 2;
+}
+
+.listItem{
+    border-bottom:1px solid $greenLine;
+    list-style-type: none;
+    padding: 12px;
+    p{
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+}
+
+.listItem.active{
+    background-color:$greenBgc;
+}
+
+.comments{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.titleStyle{
+    background-color: $greenBgc;
+    border-bottom: 1px solid $greenLine;
+}
+
+.postContent{
+
+    p{
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .hightLight{
+        background-color: $greenBgc;
+        color:$green;
+        padding: 0 5px;
+        border-radius: 3px;
+    }
+
+}
+
+.postTime{
+    font-size: 12px;
+    line-height: 24px;
+    color:$gray;
+}
